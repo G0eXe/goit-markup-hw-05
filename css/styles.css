@@ -129,7 +129,7 @@ img {
 
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 /* ============== END HEADER ============== */
@@ -226,9 +226,6 @@ img {
 }
 
 .features-item {
-  /* display: block;
-  width: 270px;
-  height: 101px; */
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
@@ -277,7 +274,6 @@ img {
 
 .we-doing .container {
   width: 1200px;
-  /* height: 386px; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -299,7 +295,6 @@ img {
 .we-doing-list {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   margin-left: -30px;
   margin-top: -30px;
 }
@@ -343,7 +338,6 @@ img {
 
 .team .container {
   width: 1200px;
-  /* height: 648px; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -879,3 +873,41 @@ img {
 }
 
 /* ============= END FOOTER =============== */
+
+/* Модальное окно */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  height: 581px;
+  background-color: #ffffff;
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
