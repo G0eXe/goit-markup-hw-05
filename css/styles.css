@@ -98,6 +98,8 @@ img {
   padding-bottom: 32px;
 
   color: #212121;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link::after {
@@ -150,6 +152,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link:hover,
@@ -543,6 +547,8 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: #ffffff;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover,
@@ -620,6 +626,8 @@ img {
   border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px 4px 4px 4px;
   background-color: #ffffff;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list-link:hover,
@@ -630,6 +638,8 @@ img {
 .clients-list-icon {
   color: rgba(175, 177, 184, 1);
   fill: currentColor;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list-icon:hover,
@@ -684,6 +694,8 @@ img {
   border: 1px solid #fff;
 
   padding: 6px 22px;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-item-button:hover,
@@ -857,6 +869,8 @@ img {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-mail-link:hover,
@@ -873,6 +887,8 @@ img {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-phone-link:hover,
@@ -920,6 +936,8 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-list-link:hover,
@@ -947,6 +965,8 @@ img {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
